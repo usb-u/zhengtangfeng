@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+@function en($px, $rem:75) {
+    @return $px / $rem * 1rem
+};
+
+
+body {
+    background-color: orange;
+}
+div {
+    margin: en(100) en(120);
+    h3 {
+        font-size: en(60);
+        margin-left: en(55);
+        font-family: cursive;
+        color: yellow;
+    }
+    img {
+        margin-top: 20px;
+    }
+}

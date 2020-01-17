@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  background-color: orange;
+}
+
+div {
+  margin: 1.33333rem 1.6rem;
+}
+
+div h3 {
+  font-size: 0.8rem;
+  margin-left: 0.73333rem;
+  font-family: cursive;
+  color: yellow;
+}
+
+div img {
+  margin-top: 20px;
+}

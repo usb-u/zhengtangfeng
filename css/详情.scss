@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+@function en($px, $rem:75) {
+    @return $px / $rem * 1rem
+};
+
+body {
+    background-image: url('https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1579289637&di=7e458e0a85798b016199059c2992bead&src=http://www.guangyuanol.cn/uploads/allimg/200117/12430K4U-1.jpg');
+    background-repeat: no-repeat; 
+    background-size: 100% en(1200);
+}
+.warp {
+    margin: en(100) en(120);
+    h3 {
+        color: #fff;
+        margin-left: 10px;
+        font-size: en(35);        
+    }
+    label {
+        .one,.twe,.three {
+            margin-top: en(22);
+            color: #fff;
+            font-size: en(30);
+            >input {
+                width: en(330);
+                height: en(50);
+            }
+        }
+        .twe {
+            >input {
+                margin-left: en(20);
+            }
+        }
+    }
+}
+
+
+
